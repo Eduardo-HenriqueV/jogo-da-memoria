@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/game.css">
+
+  <title>Jogo da memória</title>
+</head>
+
+<body>
+  <main>
+
+    <div class="nome-tempo">
+      <span class="player"></span> <button class="btn-reiniciar" onclick="window.location.reload()"> Reiniciar </button>
+      <span>Tempo: <span class="timer">00</span>
+      </span>
+    </div>
+
+    <div class="grid"></div>
+
+    <div id="footer">
+      <footer class="rodape">
+        <p class="p-footer">Todos os direitos reservados</p>
+        <p class="p-footer">Desenvolvido por Eduardo Henrique &copy; || 2022</p>
+      </footer>
+    </div>
+
+  </main>
+  
+  <script src="../js/game.js"></script>
+</body>
+
+</html>

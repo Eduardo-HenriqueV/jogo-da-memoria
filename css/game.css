@@ -1,0 +1,102 @@
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 0 ;
+  background: url('../img/springfield.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nome-tempo {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  display: flex;
+  font-size: 1.2em;
+  justify-content: space-between;
+  margin: 0 0 30px;
+  max-width: 800px;
+  padding: 30px;
+  width: 100%;
+}
+
+.btn-reiniciar {
+  background: rgba(255, 255, 255, 0.3);
+  font-size: 1em;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 15px;
+  width: 100%;
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.card {
+  aspect-ratio: 3/4;
+  background: #ccc;
+  border-radius: 5px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: all 400ms ease;
+  width: 100%;
+}
+
+.face {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 2px solid rgb(241, 245, 36);
+  border-radius: 10px;
+  transition: all 600ms ease;
+}
+
+.front {
+  background-size: cover;
+  background-position: center;
+  transform: rotateY(180deg);
+}
+
+.back {
+  background: url('../img/os-simpsons.png');
+  background-size: cover;
+  background-position: center;
+  backface-visibility: hidden;
+}
+
+.revela-card {
+  transform: rotateY(180deg);
+}
+
+.desabilita-card {
+  filter: saturate(0);
+  opacity: 0.5;
+}
+
+footer {
+  background: rgba(255, 255, 255, 0);
+  display: block;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.p-footer {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 200;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+}
