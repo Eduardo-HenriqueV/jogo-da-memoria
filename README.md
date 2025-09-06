@@ -1,5 +1,7 @@
-# jogo-da-memoria
+# 🧩 Jogo da Memória
 
-Jogo da memória dos Simpsons em página web, criado com HTML, CSS e JavaScript.
+Projeto interativo desenvolvido com **HTML, CSS e JavaScript**, inspirado nos personagens dos Simpsons.  
+O objetivo é testar a memória do usuário ao encontrar pares de cartas iguais.  
+Ideal para praticar lógica, manipulação de DOM e responsividade.
 
-acesse já: https://eduardo-henriquev.github.io/jogo-da-memoria/
+🔗 [Veja online](https://eduardo-henriquev.github.io/jogo-da-memoria/)
